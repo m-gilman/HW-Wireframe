@@ -1,53 +1,57 @@
 * {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-}
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    }
 
 body {
-    font-size: 18px;
-    line-height: 32px;
     background: #777;
+    width: 960px;    
 }
 
 header, nav, footer {
-    background: #fff;
-    
-    padding-top: 1px;
+    background: #ebebeb;
+    color: #777;
+    /*a line-height larger than the font-size will center single-line text*/
+    line-height: 40px;
+    margin: 10px 30px 10px 30px;
     padding: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-aside {
-    float: right;
-    width: 30%;
-    height: 200px;
-    padding: 20px;
-    margin-right: 20px;
-    margin-left: 1px;
-    border: 1px;
-    background: #fff;
 }
 
 section {
+    background: #ebebeb;
+    color: #777;
     float: left;
-    width: 60%;
-    height: 200px;
+    width: 495px;
+    line-height: 50px;
+    margin: 0px 0px 10px 30px;
+    padding: 10px;
+}
+
+aside {
+    background: #ebebeb;
+    color: #777;
+    float: right;
+    width: 322px;
+    margin: 0px 30px 10px 0px;
+    height: 222px;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 1px;
-    background: #fff;
-}
-/
-
-article, #article {
-background: #333;
 }
 
-.headers .paragraphs {
-    background: #fff;
-    
+
+article {
+    background: #777;
+    color: #ebebeb;
+    padding-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, p {
+    background: #ebebeb;
+    color: #777;
+    margin: 10px;
 }
