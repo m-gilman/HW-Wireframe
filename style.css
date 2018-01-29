@@ -15,7 +15,7 @@ header, nav, footer {
     color: #777;
     /*a line-height larger than the font-size will center single-line text*/
     line-height: 40px;
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 15px 30px;
     padding: 20px;
 }
 
@@ -25,7 +25,7 @@ section {
     float: left;
     width: 495px;
     line-height: 50px;
-    margin: 0px 0px 10px 30px;
+    margin: 15px 0px 15px 30px;
     padding: 10px;
 }
 
@@ -34,7 +34,7 @@ aside {
     color: #777;
     float: right;
     width: 322px;
-    margin: 0px 30px 10px 0px;
+    margin: 15px 30px 10px 0px;
     height: 222px;
     padding: 20px;
 }
@@ -50,8 +50,8 @@ article {
     clear: both;
 }
 
-h1, p {
+h1, h2, h3, p {
     background: #ebebeb;
     color: #777;
-    margin: 10px;
+    margin: 10px 20px 10px 20px;
 }
